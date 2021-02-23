@@ -1,0 +1,15 @@
+.page-leave-active {
+
+  animation: flash 1s;
+}
+
+.page-enter-active {
+  /*animation: pulse .8s;*/
+
+  animation: elasticBound .6s;
+}
+
+.search-enter-active {
+  animation: elasticBound .6s;
+
+}

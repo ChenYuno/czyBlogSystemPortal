@@ -1,0 +1,30 @@
+{
+  "name": "czyblogportal",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/proxy": "^2.0.1",
+    "animate.css": "^3.5.1",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.14.1",
+    "nprogress": "^0.2.0",
+    "nuxt": "^2.14.6",
+    "vue-quill-editor": "^3.0.6",
+    "vue-typed-js": "^0.1.2",
+    "vue-wordcloud": "^1.1.1",
+    "vuesax": "^4.0.1-alpha.25"
+  },
+  "devDependencies": {
+    "babel-plugin-component": "^1.1.1",
+    "less": "^3.12.2",
+    "less-loader": "^7.1.0"
+  }
+}
