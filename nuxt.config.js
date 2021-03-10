@@ -91,22 +91,22 @@ export default {
   ],
   proxy: {
     '/user/': {
-      target: 'http://localhost:9000', // 目标接口域名
+      target: 'http://localhost:8231', // 目标接口域名
       changeOrigin: true, // 表示是否跨域
     },
     '/portal': {
-      target: 'http://localhost:9000', // 目标接口域名
+      target: 'http://localhost:8231', // 目标接口域名
       changeOrigin: true, // 表示是否跨域
     },
     '/admin': {
-      target: 'http://localhost:9000', // 目标接口域名
+      target: 'http://localhost:8231', // 目标接口域名
       changeOrigin: true, // 表示是否跨域
     }
   },
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
     babel: {
-
+      publicPath:  'http://xxxxxxxxxxxx.com/_nuxt/',//TODO:Configure your producation's static resources request address.
       "plugins": [
         [
           "component",
